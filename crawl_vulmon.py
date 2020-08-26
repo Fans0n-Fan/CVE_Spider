@@ -22,7 +22,7 @@ for a in tag_a:
 	a_url_set.append(a_url)
 
 a_url_set.pop(0)
-a_url_set.pop(10)
+a_url_set.pop(len(a_url_set)-1)
 
 f_result = open('results.json', 'w')
 
